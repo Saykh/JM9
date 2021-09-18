@@ -1,4 +1,4 @@
-package com.edilov.JM9.congig;
+package com.edilov.JM9.config;
 
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.authority.AuthorityUtils;

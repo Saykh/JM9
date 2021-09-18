@@ -1,4 +1,4 @@
-package com.edilov.JM9.congig;
+package com.edilov.JM9.config;
 
 import com.edilov.JM9.entity.Role;
 import com.edilov.JM9.entity.User;
@@ -47,7 +47,8 @@ public class DataInitializer {
         user2.setEmail("isaev_mv@mail.ru");
         user2.setUsername("Xavi");
         user2.setPassword("1234");
-        user2.setRoles(new String[]{"ROLE_USER"});
+        String[] userRoles = {"ROLE USER"};
+        user.setRoles(userRoles);
         userService.save(user2);
     }
 }
